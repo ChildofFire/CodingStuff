@@ -1,0 +1,35 @@
+body{
+	background-color: white;
+	color: #161616;
+}
+
+#inner{
+	background-color: #161616;
+	border-radius: 3px;
+	color: white;
+	width:500px;
+	height: 400px;
+	padding:40px 50px;
+	display: table;
+	margin: 10% auto 10% auto;
+}
+
+.quotetext{
+	font-size: 30px;
+	font-family: Monotype Corsiva;
+}
+
+.quoteauthor{
+	font-family: 10px;
+	font-family: Arial;
+	text-align: right;
+}
+.button{
+	background-color: red;
+	color: white;
+		position: absolute;
+		margin-left:31.5%;
+		font-size: 20px;
+		font-family: Times New Roman;
+		text-align: center;
+		}

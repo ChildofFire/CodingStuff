@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Repeater</title>
+</head>
+<body ng-app="myApp" ng-init="countries=[{name:'US',capital:'WDC'},{name:'India',capital:'Delhi'},{name:'Russia',capital:'Moscow'}]">
+	<ol>
+		<li ng-repeat="country in countries">
+			{{'Country:'+country.name+' Capital:'+country.capital}}
+		</li>
+	</ol>
+	<input type="text" ng-model="randomcrap">
+	<br><br><br>
+
+	{{randomcrap}}
+
+	<script src="C:\angular.min.js""></script>
+	<script>
+		angular.module('myApp',[])
+	</script>
+</body>
+</html>

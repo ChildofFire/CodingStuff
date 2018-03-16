@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		cookie
+	</title>
+	<script type="text/javascript">
+		function cookiemaker()
+		{
+			if (document.myform.customer.value=="")
+			{
+				alert("enter a name")
+
+			}
+			else
+			{
+			document.cookie="name"+document.myform.customer.value
+			document.write("wrote a cookie! details: ",document.myform.customer.value)
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name="myform" action="">
+		Enter some name:
+		<input type="text" name="customer">
+		<input type="button" value="submit" onclick="cookiemaker();">
+	</form>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+	background-color: #f1f1f1;
+	font-family: Algerian;
+}
+
+.top-nav{
+	background: red;
+	color: black;
+	overflow: hidden;
+}
+
+.top-nav a{
+	float:left;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.top-nav a:hover{
+	background: white;
+	color: red;
+}
+
+.top-nav a.active{
+	background: white;
+	color:red;
+}
+
+.about{
+	margin:0 auto;
+	position: relative;
+}
+
+.about img{
+	width:100%;
+}
+
+.about .intro{
+	position:absolute;
+  padding: 20px;
+  bottom:0;
+  background:rgba(0,0,0,0.5);
+  color:#a9a9a9;
+  width:100%;
+  overflow: hidden;
+}
+
+.about .intro img{
+	width:200px;
+	display: block;
+	border-radius: 50%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.about .intro p{
+	text-align: center;
+	color:black;
+}
+
+.portfolio{
+	background-color: purple;
+	color:white;
+}
+
+.portfolio img{
+	height:300px;
+	width:300px;
+}
+
+.connect{
+	background-color: #a3a3a3;
+	color:white;
+}

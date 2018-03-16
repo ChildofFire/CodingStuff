@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		animations
+	</title>
+	<script type="text/javascript">
+		var imageObj=null
+		var animations
+		/*function hey()
+		{
+			document.write("hey!</br>")
+			heytime=setTimeout(hey,1000)
+		}
+		function stophey()
+		{
+			clearTimeout(heytime)
+		}
+		*/
+		function init()
+		{
+			imageObj=document.getElementById("myImg")
+			imageObj.style.position='relative'
+			imageObj.style.left='0px'
+		}
+		function moveright()
+		{
+			imageObj.style.left=parseInt(imageObj.style.left)+10+'px'
+			animations=setTimeout(moveright,100)
+		}
+		function stopmove()
+		{
+			clearTimeout(animations)
+		}
+		function reset()
+		{
+			imageObj.style.left='0px'
+		}
+
+		window.onload=init;
+	</script>
+</head>
+<body>
+	<table>
+		<tr>
+			<img id="myImg" src="file:/C:/Users/Assassin123/Desktop/image-in-the-image-2204798_960_720.jpg">
+		</tr>
+		<tr>
+			<td> <input type="button" value="clickToAnimate" onclick="moveright()"></td>
+			<td> <input type="button" value="clickToStop" onclick="stopmove()"> </td>
+			<td> <input type="button" value="reset" onclick="reset()"> </td>
+		</tr>
+	</table>
+</body>
+</html>

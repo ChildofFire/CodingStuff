@@ -1,0 +1,70 @@
+.custom{
+	background-color: turquoise;
+}
+#twitch-logo{
+	height:200px;
+	width: 200px;
+	border-radius: 50%;
+	left:45%;
+	top:10%;
+	position: absolute;
+}
+.main{
+	margin:30% 20% 20% 20%;
+	padding: 10% 10% 10% 10%;
+	background-color: gray;
+	color: lime;
+	border-radius: 3px;
+	border-width: 10px;
+}
+
+.channel{
+	background-color: white;
+	border-color: black;
+	border-width: 10px;
+	padding:2% 2% 2% 2%;
+	border-radius: 3px;
+}
+
+.info{
+	padding-left: 10%;
+	padding-top:2%;
+}
+
+.loader{
+	position: absolute;
+	left:50%;
+	top:50%;
+	width: 100px;
+	height: 100px;
+	-webkit-animation: spin 0.75s linear infinite;
+	animation: spin 0.75s linear infinite;
+	border:10px solid #f3f3f3;
+	border-top: 10px solid #3498db;
+	border-radius:50%;
+}
+
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		dialogs
+	</title>
+	<script type="text/javascript">
+		
+		function dialogchoice()
+		{
+			choice=document.myform.dialogger.value
+			if (choice=='1')
+			{
+				alert("this is an alert!")
+
+			}
+			else if(choice=='2')
+			{
+				var conf=confirm("This is a confirmation:")
+				if (conf)
+					document.write("user clicked OK")
+				else document.write("user clicked cancel")
+			}
+			else if (choice==3)
+			{
+				var name=prompt("please enter your name: ")
+				document.write("your name is "+name)
+			}
+			else document.write("unknown value!")
+		}
+	</script>
+</head>
+<body>
+	<form name="myform">
+	<input type="text" name="dialogger">
+	<input type="button" value="done?" onclick="dialogchoice()">
+	</form>
+</body>
+</html>
