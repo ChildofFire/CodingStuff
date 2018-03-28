@@ -1,0 +1,19 @@
+body{
+	background-image: url('https://fthmb.tqn.com/7Nto9qhI4r82Xrq2ifOhqOrwr7o=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/pomodorotimer-58cc1f343df78c3c4f89f408.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Bookman Old Style';
+}
+
+h3{
+	display: inline;
+}
+
+.main{
+	margin-top: 5%;
+}
+
+.countdown{
+	font-size: 50px;
+	font-family: 'Monotype Corsiva';
+}

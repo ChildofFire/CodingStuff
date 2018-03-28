@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<audio id="alarm" src="http://res.cloudinary.com/dmrpl2eeq/video/upload/v1522261298/alarm.wav" type="audio/wav"></audio>
+	
+	<div class="container-fluid text-center" id="container">
+		<br><br>
+		<h1>Pomodoro Clock</h1>
+		<div class="main">
+			<h3><button class="btn btn-primary" id="reset">Reset</button></h3>
+			<h3><button class="btn btn-primary" id="start">Start</button></h3>
+		<div id="controls">
+			<div id="session">
+				<h2>Session</h2>
+				<button class="btn btn-primary" id="addSessionTime">+</button>
+				<h3 id="sessionlength">25</h3>
+				<button class="btn btn-primary" id="subSessionTime">-</button>
+				<br>
+				<span>(max 40 minutes, min 1 minute)</span>
+			</div>
+			<div id="break">
+				<h2>Break</h2>
+				<button class="btn btn-primary" id="addBreakTime">+</button>
+				<h3 id="breaklength">5</h3>
+				<button class="btn btn-primary" id="subBreakTime">-</button>
+				<br>
+				<span>(max 20 minutes, min 1 minute)</span>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="countdown">
+		<h1 id="workorbreak">Back To Work!</h2>
+		<span id="minutes"></span>:<span id="seconds"></span>
+	</div>
+	</div>
+</body>
+</html>
