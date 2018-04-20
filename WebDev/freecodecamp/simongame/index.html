@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simon Game</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<audio id="greensound" src="https://raw.githubusercontent.com/ChildofFire/audio/master/beep-01.mp3" type="audio/mpeg"></audio>
+
+<audio id="redsound" src="https://raw.githubusercontent.com/ChildofFire/audio/master/beep-02.mp3" type="audio/mpeg"></audio>
+
+<audio id="bluesound" src="https://raw.githubusercontent.com/ChildofFire/audio/master/beep-03.mp3" type="audio/mpeg"></audio>
+
+<audio id="yellowsound" src="https://raw.githubusercontent.com/ChildofFire/audio/master/beep-04.mp3" type="audio/mpeg"></audio>
+
+<audio id="error" src="https://raw.githubusercontent.com/ChildofFire/audio/master/error.mp3" type="audio/mpeg"></audio>
+
+<audio id="victory" src="https://raw.githubusercontent.com/ChildofFire/audio/master/tada.mp3" type="audio/mpeg"></audio>
+
+<div class="instructions">
+	<h1 style="text-align:center;">SIMON GAME</h1>
+	<ul>
+		<li>Press the <span>ON</span> button to start the gameboard.</li>
+		<li>Press <span>START</span> to begin the game.</li>
+		<li>You'll be presented with a series of random button presses. Press them in the correct order to advance through the game.</li>
+		<li>You win if you pass all 20 levels.</li>
+		<li>Pressing a wrong button while in <span>STRICT</span> mode resets the game back to the first level. If <span>STRICT</span> mode is off, the demo plays again and you can resume with the same level.</li>
+		<li>Pressing the <span>RESET</span> button starts the game all over again.</li>
+	</ul>
+</div>
+
+<div class="text-center gameboard">
+			<div class="simon-buttons green" id="0"></div>
+			<div class="simon-buttons red" id="1"></div>
+			<div class="simon-buttons yellow" id="3"></div>
+			<div class="simon-buttons blue" id="2"></div>
+			<div class="controls">
+				<div class="simon-text" id="simon-text">SIMON</div>
+				<div class="mode">
+				<div class="inline count" id="count">--</div>
+				<div class="inline start" id="start">START</div>
+				<div class="inline strict" id="strict">STRICT</div>
+				</div>
+				<div class="switch-box">
+					<h6 class="inline" id="off">OFF</h6>
+					<div class="inline switch-panel">
+						<div class="switch" id="switch"></div>
+					</div>
+					<h6 class="inline" id="on">ON</h6>
+				</div>
+			</div>
+		</div>
+<div class="wintext text-center">
+	SIMON GO BACK!!!<br>USER WINS.
+</div>
+
+<button class="btn btn-primary" id="gamereset">Play Again?</button>	
+</body>
+</html>

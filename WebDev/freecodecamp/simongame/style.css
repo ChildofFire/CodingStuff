@@ -1,0 +1,154 @@
+body {
+  background-color: #07fdfd;
+}
+
+.instructions{
+	color:blue;
+	font-family:'Monotype Corsiva';
+	font-size:25px;
+}
+.instructions h1{
+	font-family:'Algerian';
+	color:red;
+}
+.instructions span{
+	font-family:'Times New Roman';
+	font-size:20px;
+	color:black;
+}
+
+.gameboard {
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 600px;
+  width: 600px;
+  background-color: #555;
+  border: solid;
+  border-width: 10px;
+  border-radius: 50%;
+}
+
+.simon-buttons {
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 290px;
+  height: 290px;
+  border: solid 20px black;
+  cursor:pointer;
+}
+
+.green{
+	background-color: lime;
+	border-radius:100% 0 0 0;
+}
+
+.red{
+	background-color: red;
+	border-radius: 0 100% 0 0;
+}
+
+.blue{
+	background-color: blue;
+	border-radius: 0 0 100% 0;
+}
+
+.yellow{
+	background-color: yellow;
+	border-radius: 0 0 0 100%;
+}
+
+.controls{
+	background-color:white;
+	height:300px;
+	width: 300px;
+	position: absolute;
+	margin-top:145px;
+	margin-left:145px;
+	border-radius:50%;
+	border: solid 20px black;
+	padding-top: 40px;
+}
+
+.simon-text{
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:50px;
+	font-family: 'Lucida Handwriting';
+	font-weight: bold;
+}
+
+.inline{
+	display: inline-block;
+	vertical-align:top;
+}
+
+.count{
+	height:40px;
+	width:60px;
+	border: solid 5px black;
+	border-radius:10px;
+	background-color: #670311;
+	font-weight:bold;
+	font-size: 30px;
+	line-height:26px;
+	color:#840416;
+}
+
+.mode{
+	margin-top:20px;
+}
+
+.start, .strict{
+	height:40px;
+	width: 40px;
+	border: solid 2px;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	padding-top:9px;
+	border-radius:50%;
+	cursor:pointer;
+}
+
+.start{
+	background-color:#b5060f;
+}
+
+.strict{
+	background-color:#add412;
+}
+
+.switch-box{
+	margin-top:40px;
+}
+
+.switch-panel{
+	height:20px;
+	width:40px;
+	border-radius:5px;
+	background-color:black;
+	cursor:pointer;
+}
+
+.switch{
+	height:20px;
+	width:20px;
+	background-color:#31278a;
+	border-radius:5px;
+}
+
+.wintext{
+	margin-top: 20px;
+	font-family:'Times New Roman';
+	font-size:50px;
+	color:blue;
+	heigh
+}
+
+.btn{
+	margin-left:45%;
+	margin-top:10px;
+	width:200px;
+}
