@@ -10,8 +10,8 @@ from selenium.webdriver.common.by import By
 fb=webdriver.Chrome()
 
 fb.get('https://www.facebook.com')
-fb.find_element_by_id('email').send_keys('singhsomesh0@gmail.com')
-fb.find_element_by_id('pass').send_keys('themorningstar'+Keys.ENTER)
+fb.find_element_by_id('email').send_keys('facebook id')
+fb.find_element_by_id('pass').send_keys('password'+Keys.ENTER)
 fb.find_element_by_tag_name('html').send_keys(Keys.ESCAPE)
 
 fb.find_element_by_name("mercurymessages").click()
